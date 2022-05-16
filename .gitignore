@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# my porject
+.vscode
+.idea
+.DS_Store
+/migrations
+/config/dev.ini
+/logs/*.log
