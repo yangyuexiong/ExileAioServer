@@ -25,12 +25,12 @@ def get_config():
         'default': default_env,
         'uat': {
             'config_path': config_path + '/uat.ini',
-            'msg': 'uat配置文件:{}'.format(config_path + '/uat.ini'),
+            'msg': f'uat配置文件:{config_path}/uat.ini'
         },
 
         'production': {
             'config_path': config_path + '/prod.ini',
-            'msg': 'prod配置文件:{}'.format('/srv/a/config/prod.ini')
+            'msg': f'prod配置文件:{config_path}/prod.ini'
         },
     }
 
