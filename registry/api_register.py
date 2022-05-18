@@ -11,5 +11,5 @@ from app.api import *
 def register_api(app):
     """Api注册"""
 
-    app.router.add_route('*', '/api/aio_test', TestApi)
-    app.router.add_route('*', '/api/aio_execute', ExecuteApi)
+    app.router.add_route('*', '/aio/aio_test', TestApi)
+    app.router.add_route('*', '/aio/aio_execute', ExecuteApi)
