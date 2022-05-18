@@ -14,4 +14,4 @@ class TestApi(web.View):
         R = self.request.app['aio_redis_engine']
         res = await R.get('127.0.0.1')
         print(res)
-        return api_result(code=200, message='GET TestApi', data=[json.loads(res)])
+        return api_result(code=200, message='GET TestApi')
